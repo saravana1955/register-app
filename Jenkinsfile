@@ -94,7 +94,7 @@ pipeline {
 	stage("Trigger CD Pipeline") {
             steps {
                 script {
-                    sh "curl -v -k --user provility-devops:${JENKINS_API_TOKEN} -X POST -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' --data 'IMAGE_TAG=${IMAGE_TAG}' 'http://jenkins.provilityhub.com/job/gitops-registry/buildWithParameters?token=gitops-token'"
+                    sh "curl -v -k --user devops:11bec8d7e42147c2604eef2cbe09af6621 -X POST -H 'cache-control: no-cache' -H 'content-type: application/x-www-form-urlencoded' --data 'IMAGE_TAG=${IMAGE_TAG}' 'http://jenkins.provilityhub.com/job/gitops-registry/buildWithParameters?token=gitops-token'"
                 }
             }
        }
