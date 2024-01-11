@@ -30,8 +30,6 @@
   <div class="container signin">
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
-
-   <h1> Thank You Guys. Good Bye Devops. The end. SarVANA YOU ARE FIRED </h1>
    <br>
    <h1> Happy Learning by Provility Devops </h1>
    
